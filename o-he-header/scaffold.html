@@ -10,17 +10,26 @@
 	<script src="//polyfill.webservices.ft.com/v1/polyfill.min.js?features=default"></script>
 	<style>body { margin: 0; } .demo-js .o--if-nojs { display: none; }</style>
 	<script>(function(d) { d.className = d.className + ' demo-js'; })(document.documentElement);</script>
-	<link rel="stylesheet" href="demo.css" />
+	<link rel="stylesheet" href="scaffold.css" />
 </head>
 <body class="o-hoverable-on">
 <header data-o-component="o-he-header" class="o-he-header">
   <div class="o-he-header__container ">
     <div class="o-he-header__primary">
       <div class="o-he-header__primary__left">
-        LEFT CONTENT
+        <div class="o-he-header__brand">
+  <div class="o-he-header__logo o-he-header__logo--pearson"></div>
+</div>
+
       </div>
       <div class="o-he-header__primary__right">
-        RIGHT CONTENT
+        <nav class="pull-right">
+  <ul>
+    <li><a href="#">Foo</a></li>
+    <li><a href="#">Bar</a></li>
+  </ul>
+</nav>
+
       </div>
     </div>
   </div>
@@ -35,7 +44,7 @@
 </div>
 
 
-<script src="demo.js"></script>
+
 <script src="//registry.origami.ft.com/embedapi?autoload=resize"></script>
 </body>
 </html>
