@@ -1,0 +1,25 @@
+////
+/// @group o-he-header
+/// @link http://registry.origami.ft.com/components/o-he-header
+////
+
+/// @type {Number}
+$o-he-header-height: 48px !default;
+
+/// @type {Number}
+$o-he-header-padding-horizontal: 15px !default;
+
+/// Point at which the header becomes uncollapsed
+/// @type {Number}
+$o-he-header-grid-float-breakpoint: 768px !default;
+
+$o-he-header-bg: #000000 !default;
+$o-he-header-text-color: #ffffff !default;
+$o-he-header-item-border-color: #353535;
+
+// Links
+$o-he-header-link-color: #c2c2c2 !default;
+$o-he-header-link-hover-color: lighten($o-he-header-link-color, 18.5%) !default;
+
+// Nav
+$o-he-header-nav-link-padding: 10px 15px !default;

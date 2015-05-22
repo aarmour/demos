@@ -1,0 +1,9 @@
+////
+/// @group o-he-header
+/// @link http://registry.origami.ft.com/components/o-he-header
+////
+
+/// Helper function for resolving asset paths
+@function oHeHeaderAsset($asset) {
+	@return oAssetsResolve($asset, o-he-header);
+}

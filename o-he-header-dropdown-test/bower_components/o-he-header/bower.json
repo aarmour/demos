@@ -1,0 +1,20 @@
+{
+  "name": "o-he-header",
+  "main": [
+    "main.scss",
+    "main.js"
+  ],
+  "ignore": [
+    "examples",
+    "test",
+    "scripts",
+    ".gitignore"
+  ],
+  "repository": {
+  	"type": "git",
+  	"url": "https://github.com/aarmour/o-he-header.git"
+	},
+  "dependencies": {
+    "o-assets": ">=0.4.1 <3"
+  }
+}

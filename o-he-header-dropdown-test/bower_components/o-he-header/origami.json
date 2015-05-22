@@ -1,0 +1,24 @@
+{
+    "description": "Pearson Higher Ed page header",
+    "origamiType": "module",
+    "origamiVersion": 1,
+    "support": "https://github.com/Financial-Times/o-he-header/issues",
+    "supportStatus": "experimental",
+    "demos": [
+        {
+            "path": "/demos/scaffold.html",
+            "expanded": true,
+            "description": ""
+        },
+        {
+            "path": "/demos/basic.html",
+            "expanded": true,
+            "description": ""
+        },
+        {
+            "path": "/demos/navigation.html",
+            "expanded": true,
+            "description": ""
+        }
+    ]
+}

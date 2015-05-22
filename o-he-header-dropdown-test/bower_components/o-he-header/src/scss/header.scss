@@ -1,0 +1,56 @@
+////
+/// @group o-he-header
+/// @link http://registry.origami.ft.com/components/o-he-header
+////
+
+.o-he-header {
+	width: 100%;
+	height: $o-he-header-height;
+	background-color: $o-he-header-bg;
+	color: $o-he-header-text-color;
+
+	a {
+		text-decoration: none;
+		color: $o-he-header-link-color;
+		font-size: 16px;
+
+		&:hover,
+		&:focus {
+			color: $o-he-header-link-hover-color;
+		}
+	}
+}
+
+.o-he-header--fixed {
+	position: fixed;
+	top: 0;
+}
+
+// Primary container
+.o-he-header__primary {
+	position: relative;
+	width: 100%;
+}
+
+// Containers within the primary container
+.o-he-header__primary__left,
+.o-he-header__primary__right {
+	position: relative;
+	height: $o-he-header-height;
+	width: 50%;
+}
+
+.o-he-header__primary__left {
+	float: left;
+}
+
+.o-he-header__primary__right {
+	float: right;
+}
+
+// Collapsible container
+.o-he-header__collapse {
+	@media (max-width: $o-he-header-grid-float-breakpoint) {
+		display: none;
+	}
+}

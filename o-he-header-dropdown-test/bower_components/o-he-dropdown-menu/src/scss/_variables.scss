@@ -1,0 +1,21 @@
+////
+/// @group o-he-dropdown-menu
+/// @link http://registry.origami.ft.com/components/o-he-dropdown-menu
+////
+
+/// Silent mode
+/// @type Bool
+$o-he-dropdown-menu-is-silent: true !default;
+
+// Basics
+$o-he-dropdown-menu-bg: #ffffff !default;
+$o-he-dropdown-menu-border: rgba(0, 0, 0, 0.15) !default;
+
+// Links
+$o-he-dropdown-menu-link-color: rgb(75, 75, 75) !default;
+$o-he-dropdown-menu-link-hover-color: rgb(255, 255, 255) !default;
+$o-he-dropdown-menu-link-hover-bg: rgb(118, 118, 118) !default;
+$o-he-dropdown-menu-link-disabled-color: rgb(116, 116, 116) !default;
+
+// z-index
+$o-he-dropdown-menu-z-index: 1000 !default;

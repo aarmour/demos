@@ -1,0 +1,155 @@
+.o-he-header {
+  width: 100%;
+  height: 48px;
+  background-color: #000000;
+  color: #ffffff; }
+  .o-he-header a {
+    text-decoration: none;
+    color: #c2c2c2;
+    font-size: 16px; }
+    .o-he-header a:hover, .o-he-header a:focus {
+      color: #f1f1f1; }
+
+.o-he-header--fixed {
+  position: fixed;
+  top: 0; }
+
+.o-he-header__primary {
+  position: relative;
+  width: 100%; }
+
+.o-he-header__primary__left,
+.o-he-header__primary__right {
+  position: relative;
+  height: 48px;
+  width: 50%; }
+
+.o-he-header__primary__left {
+  float: left; }
+
+.o-he-header__primary__right {
+  float: right; }
+
+@media (max-width: 768px) {
+  .o-he-header__collapse {
+    display: none; } }
+
+.o-he-header__logo,
+.o-he-header__logo > img,
+.o-he-header__logo a {
+  display: inline-block;
+  vertical-align: middle; }
+
+.o-he-header__logo--pearson {
+  display: block;
+  width: 114px;
+  height: 44px;
+  background: url(/bower_components/o-he-header/img/pearson-logo.png) no-repeat; }
+
+.o-he-header__tagline,
+.o-he-header__tagline > img,
+.o-he-header__tagline a {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 15px; }
+
+.o-he-header__tagline--always-learning {
+  display: block;
+  width: 170px;
+  height: 20px;
+  margin-top: 14px;
+  max-height: 48px;
+  background: url(/bower_components/o-he-header/img/pearson-tagline__always-learning.png) no-repeat;
+  background-size: contain; }
+
+.o-he-header__brand {
+  float: left;
+  height: 48px;
+  padding: 0 15px; }
+
+.o-he-header__nav {
+  float: left;
+  height: 48px; }
+
+.o-he-header__nav > ul {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  list-style: none; }
+
+.o-he-header__nav-item {
+  float: left;
+  height: 48px;
+  border-left: solid 1px #353535; }
+
+.o-he-header__nav-item > a {
+  padding: 10px 15px;
+  line-height: 48px; }
+
+.o-he-header__nav-dropdown-menu > a {
+  padding: 10px 15px;
+  line-height: 48px; }
+
+.o-he-dropdown-menu {
+  position: relative; }
+
+.o-he-dropdown-menu__menu-items {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 10px 0;
+  margin: 0;
+  list-style: none;
+  text-align: left;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.15); }
+
+.o-he-dropdown-menu--expanded > .o-he-dropdown-menu__menu-items {
+  display: block; }
+
+.o-he-dropdown-menu--right > .o-he-dropdown-menu__menu-items {
+  right: 0;
+  left: auto; }
+
+.o-he-dropdown-menu__menu-item > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  text-decoration: none;
+  color: #4b4b4b;
+  white-space: nowrap; }
+  .o-he-dropdown-menu__menu-item > a:hover, .o-he-dropdown-menu__menu-item > a:focus {
+    color: white;
+    background-color: #767676; }
+
+.o-he-dropdown-menu__menu-item--disabled > a, .o-he-dropdown-menu__menu-item--disabled > a:hover, .o-he-dropdown-menu__menu-item--disabled > a:focus {
+  color: #747474; }
+.o-he-dropdown-menu__menu-item--disabled > a:hover, .o-he-dropdown-menu__menu-item--disabled > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  background-image: none;
+  cursor: not-allowed; }
+
+html,
+body {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-family: 'Roboto', sans-serif; }
+
+.pull-right {
+  float: right !important; }
+
+.container {
+  max-width: 960px;
+  margin: 0 auto; }
+
+.content {
+  color: transparent;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: justify; }

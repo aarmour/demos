@@ -1,0 +1,16 @@
+{
+  "name": "o-he-dropdown-menu",
+  "dependencies": {
+    "dom-delegate": "^2.0.0"
+  },
+  "main": [
+    "main.scss",
+    "main.js"
+  ],
+  "ignore": [
+    "examples",
+    "test",
+    ".gitignore"
+  ],
+  "license": "MIT"
+}

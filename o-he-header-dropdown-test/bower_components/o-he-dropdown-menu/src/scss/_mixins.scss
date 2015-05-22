@@ -1,0 +1,13 @@
+////
+/// @group o-he-dropdown-menu
+/// @link http://registry.origami.ft.com/components/o-he-dropdown-menu
+////
+
+/// Hello world
+///
+/// @param {String} $who [world]
+@mixin oHeDropdownMenuHello($who: world) {
+	.foo {
+		content: 'Hello, #{$who}!';
+	}
+}

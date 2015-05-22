@@ -1,0 +1,19 @@
+$o-assets-global-path: '/bower_components/';
+$o-he-dropdown-menu-is-silent: false;
+
+@import '../../main';
+
+html,
+body {
+	height: 100%;
+}
+
+.demo__list-inline {
+	list-style-type: none;
+
+	> li {
+		float: left;
+		padding: 0 15px;
+	}
+
+}

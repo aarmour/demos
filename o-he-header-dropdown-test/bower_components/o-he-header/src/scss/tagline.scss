@@ -1,0 +1,24 @@
+////
+/// @group o-he-header
+/// @link http://registry.origami.ft.com/components/o-he-header
+////
+
+// Default styling for standard taglines
+.o-he-header__tagline,
+.o-he-header__tagline > img,
+.o-he-header__tagline  a {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 $o-he-header-padding-horizontal;
+}
+
+// Always Learning tagline
+.o-he-header__tagline--always-learning {
+	display: block;
+	width: 170px;
+	height: 20px;
+	margin-top: 14px;
+	max-height: $o-he-header-height;
+	background: url(oHeHeaderAsset('img/pearson-tagline__always-learning.png')) no-repeat;
+	background-size: contain;
+}

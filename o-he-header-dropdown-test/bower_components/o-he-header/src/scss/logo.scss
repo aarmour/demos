@@ -1,0 +1,20 @@
+////
+/// @group o-he-header
+/// @link http://registry.origami.ft.com/components/o-he-header
+////
+
+// Default styling for standard header logos
+.o-he-header__logo,
+.o-he-header__logo > img,
+.o-he-header__logo  a {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+// Pearson logo
+.o-he-header__logo--pearson {
+	display: block;
+	width: 114px;
+	height: 44px;
+	background: url(oHeHeaderAsset('img/pearson-logo.png')) no-repeat;
+}

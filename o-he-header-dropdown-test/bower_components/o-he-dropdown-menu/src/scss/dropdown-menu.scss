@@ -1,0 +1,65 @@
+.o-he-dropdown-menu {
+	position: relative;
+}
+
+// Menu item container
+.o-he-dropdown-menu__menu-items {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: $o-he-dropdown-menu-z-index;
+	display: none;
+	float: left;
+	min-width: 160px;
+	padding: 10px 0;
+	margin: 0;
+	list-style: none;
+	text-align: left;
+	background-color: $o-he-dropdown-menu-bg;
+	border: 1px solid $o-he-dropdown-menu-border;
+}
+
+.o-he-dropdown-menu--expanded > .o-he-dropdown-menu__menu-items {
+	display: block;
+}
+
+.o-he-dropdown-menu--right > .o-he-dropdown-menu__menu-items {
+	right: 0;
+	left: auto;
+}
+
+// Menu item
+.o-he-dropdown-menu__menu-item > a {
+	display: block;
+	padding: 3px 20px;
+	clear: both;
+	text-decoration: none;
+	color: $o-he-dropdown-menu-link-color;
+	white-space: nowrap;
+
+	&:hover,
+	&:focus {
+		color: $o-he-dropdown-menu-link-hover-color;
+		background-color: $o-he-dropdown-menu-link-hover-bg;
+	}
+
+}
+
+// Disabled state
+.o-he-dropdown-menu__menu-item--disabled > a {
+
+	&,
+	&:hover,
+	&:focus {
+		color: $o-he-dropdown-menu-link-disabled-color;
+	}
+
+	// Remove hover/focus effects
+	&:hover,
+	&:focus {
+		text-decoration: none;
+		background-color: transparent;
+		background-image: none;
+		cursor: not-allowed;
+	}
+}
