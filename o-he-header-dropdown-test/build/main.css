@@ -44,7 +44,7 @@
   display: block;
   width: 114px;
   height: 44px;
-  background: url(/bower_components/o-he-header/img/pearson-logo.png) no-repeat; }
+  background: url(/demos/o-he-header-dropdown-test/bower_components/o-he-header/img/pearson-logo.png) no-repeat; }
 
 .o-he-header__tagline,
 .o-he-header__tagline > img,
@@ -59,7 +59,7 @@
   height: 20px;
   margin-top: 14px;
   max-height: 48px;
-  background: url(/bower_components/o-he-header/img/pearson-tagline__always-learning.png) no-repeat;
+  background: url(/demos/o-he-header-dropdown-test/bower_components/o-he-header/img/pearson-tagline__always-learning.png) no-repeat;
   background-size: contain; }
 
 .o-he-header__brand {
