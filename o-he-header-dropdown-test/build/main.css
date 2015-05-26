@@ -135,13 +135,13 @@
   cursor: not-allowed; }
 
 .o-he-dropdown-menu--inverse .o-he-dropdown-menu__menu-items {
-  background-color: #404040;
-  border: 1px solid #404040; }
+  background-color: #272727;
+  border: 1px solid #272727; }
 .o-he-dropdown-menu--inverse .o-he-dropdown-menu__menu-item > a {
-  color: #c2c2c2; }
+  color: #999999; }
   .o-he-dropdown-menu--inverse .o-he-dropdown-menu__menu-item > a:hover, .o-he-dropdown-menu--inverse .o-he-dropdown-menu__menu-item > a:focus {
-    color: #404040;
-    background-color: #c2c2c2; }
+    color: #eeeeee;
+    background-color: #3a3a3a; }
 .o-he-dropdown-menu--inverse .o-he-dropdown-menu__menu-item--disabled > a, .o-he-dropdown-menu--inverse .o-he-dropdown-menu__menu-item--disabled > a:hover, .o-he-dropdown-menu--inverse .o-he-dropdown-menu__menu-item--disabled > a:focus {
   color: #747474; }
 
